@@ -1,0 +1,25 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "dedicart-file-worker",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-08-01",
+	"observability": {
+		"enabled": true
+	},
+	"vars": {
+		"DNS": "dedicart-file-worker.dedicart.workers.dev"
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "avantenutri_db",
+			"database_id": "3273f5cd-ec8b-43c2-af8e-4da5c1d73b6f"
+		}
+	],
+	"r2_buckets": [
+		{
+			"binding": "R2",
+			"bucket_name": "huummmsexyshop"
+		}
+	],
+}
