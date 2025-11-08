@@ -9,15 +9,14 @@ Este documento contém exemplos de como popular o banco de dados com dados inici
 
 INSERT INTO categories (id, name, slug, "order") VALUES
   ('cat-vibradores', 'Vibradores', 'vibradores', 1),
-  ('cat-dildos', 'Dildos', 'dildos', 2),
-  ('cat-plug-anal', 'Plug Anal', 'plug-anal', 3),
-  ('cat-aneis-penianos', 'Anéis Penianos', 'aneis-penianos', 4),
-  ('cat-masturbadores', 'Masturbadores', 'masturbadores', 5),
-  ('cat-lingerie', 'Lingerie', 'lingerie', 6),
-  ('cat-lubrificantes', 'Gel Lubrificante', 'gel-lubrificante', 7),
-  ('cat-cosmeticos', 'Cosméticos', 'cosmeticos', 8),
-  ('cat-acessorios', 'Acessórios', 'acessorios', 9),
-  ('cat-bdsm', 'BDSM', 'bdsm', 10);
+  ('cat-iniciantes', 'Iniciantes', 'iniciantes', 2),
+  ('cat-solo', 'Solo', 'solo', 3),
+  ('cat-casais', 'Casais', 'casais', 4),
+  ('cat-wellness', 'Wellness', 'wellness', 5),
+  ('cat-lubrificantes', 'Lubrificantes', 'lubrificantes', 6),
+  ('cat-cosmeticos', 'Cosméticos', 'cosmeticos', 7),
+  ('cat-acessorios', 'Acessórios', 'acessorios', 8),
+  ('cat-lingerie', 'Lingerie', 'lingerie', 9);
 ```
 
 Salve como `seed-categories.sql` e execute:
