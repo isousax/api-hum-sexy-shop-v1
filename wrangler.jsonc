@@ -6,13 +6,10 @@
 	"observability": {
 		"enabled": true
 	},
-	"vars": {
-		"DNS": "dedicart-file-worker.dedicart.workers.dev"
-	},
 	"d1_databases": [
 		{
 			"binding": "DB",
-			"database_name": "avantenutri_db",
+			"database_name": "huumsexyshop_db",
 			"database_id": "3273f5cd-ec8b-43c2-af8e-4da5c1d73b6f"
 		}
 	],
